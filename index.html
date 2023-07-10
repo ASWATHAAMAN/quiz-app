@@ -28,27 +28,46 @@
         </header>
         <div class="hero-container" id="hero-container">
           <div class="row-one">
-            <span class="round"></span>
-            <span class="language">Java</span>
-          </div>
-         <div class="row-one">
-            <span class="round"></span>
-            <span class="language">C</span>
-          </div>
-         <div class="row-one">
-            <span class="round"></span>
-            <span class="language">Python</span>
+            <input type="radio" name="radioBtn" id="option-1" />
+            <label for="option-1">Java</label>
+            <!-- <span class="language">Java</span> -->
           </div>
           <div class="row-one">
-            <span class="round"></span>
-            <span class="language">JavaScript</span>
+            <input type="radio" name="radioBtn" id="option-2" />
+            <label for="option-2">C</label>
+          </div>
+          <div class="row-one">
+            <input type="radio" name="radioBtn" id="option-3" />
+            <label for="option-3">Python</label>
+          </div>
+          <div class="row-one">
+            <input type="radio" name="radioBtn" id="option-4" />
+            <label for="option-4">JavaScript</label>
           </div>
         </div>
         <footer class="bottom">
           <button type="submit" class="submit">Submit</button>
         </footer>
       </div>
-      <script src="./scripts/script.js"></script>
+      <script src="./scripts/script.js">
+                `use strict`;
+
+        // select elements
+        let roundEl = document.getElementById(`round`);
+        // console.log(roundEl);
+        // // function
+
+        // // eventListener
+        roundEl.addEventListener(`click`,function(){
+          roundEl.classList.remove(`round`);
+          roundEl.classList.add(`small-round`);
+
+        })
+        // roundEl.addEventListener(`click`, funcEle);
+
+        // roundEl.classList.remove(`round`);
+        // roundEl.classList.add(`small-round`);
+      </script>
     </div>
   </body>
 </html>

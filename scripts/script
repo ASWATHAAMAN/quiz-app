@@ -1,0 +1,19 @@
+`use strict`;
+
+// select elements
+let roundEl = document.getElementById(`round`);
+// console.log(roundEl);
+// // function
+
+// // eventListener
+roundEl.addEventListener(`click`,function(){
+  roundEl.classList.remove(`round`);
+  roundEl.classList.add(`small-round`);
+  
+})
+// roundEl.addEventListener(`click`, funcEle);
+
+// roundEl.classList.remove(`round`);
+// roundEl.classList.add(`small-round`);
+
+

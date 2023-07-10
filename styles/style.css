@@ -23,7 +23,7 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color:rgb(215, 236, 248);
+  background-color: rgb(215, 236, 248);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,54 +40,55 @@ img {
   height: auto;
   object-fit: contain;
 }
-.main-card{
-  width: 50%;
+.main-card {
+  /* width: 50%; */
   border: 1px solid #fff;
   padding-top: 5rem;
   background-color: #fff;
   border-radius: 12px;
+  width: 710px;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.circle{
+.circle {
   width: 5%;
 }
-.round{
+.round {
   padding: 6px;
   background-color: white;
   border: 2px solid rgb(156, 152, 152);
   border-radius: 50%;
 }
-.round:hover{
+.round:hover {
   border: 2px solid rgb(0, 0, 0);
 }
-.title{
+.title {
   text-align: center;
   font-size: 16px;
   margin-bottom: 2rem;
   width: 500px;
 }
-.hero-container{
+.hero-container {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   margin-bottom: 5rem;
   width: 80%;
 }
-.row-one{
+.row-one {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.language{
+.language {
   font-size: 22px;
   cursor: pointer;
 }
-.submit{
+.submit {
   padding: 2rem;
   width: 710px;
   border: none;
@@ -98,14 +99,6 @@ img {
   font-size: 21px;
   cursor: pointer;
 }
-.submit:hover{
+.submit:hover {
   background-color: rgb(123, 41, 123);
 }
-
-.small-round{
-  padding: 6px;
-  background-color: white;
-  border: 2px solid dodgerblue;
-  border-radius: 50%;
-}
-
